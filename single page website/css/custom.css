@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background:url(../images/waves_.jpg);
+    background-attachment: fixed;
+}
+.main{
+    /* height: 6000px; */
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    
+}
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+header{
+    width: 100%;
+    height: 650px;
+    background: url(../images/headerbg.jpg) fixed no-repeat center center;
+    background-size: cover;
+    border-bottom: 10px blue solid;
+}
+.dots{
+    width: 100%;
+    height: 100%;
+    background: url(../images/gridtile.png);
+}
+.logo{
+    width: 300px;
+    /* border: 1px gold solid; */
+    margin: auto;
+    padding-top: 30px;
+}
+.linebar{
+    /* width: 200px; */
+    border: 1px blue solid;
+    color: white;
+    font-size: 36px;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px 0px;
+    border-left: none;
+    border-right: none;
+}
+nav ul{
+    /* width: 100%; */
+    /* border: 1px red solid; */
+    color: white;
+    list-style: none;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 150px;
+    gap: 20px;
+}
+li{
+    border: 1px white solid;
+    padding: 12px;
+    font-weight: bold;
+    border-top: none;
+    border-bottom: none;
+}
+li:nth-child(1){
+    border-left: none;
+    border-right: none;
+}
+li:nth-child(2){
+    border-right: none;
+}
+li:nth-child(3){
+    border-right: none;
+}
+li:nth-child(4){
+    border-right: none;
+}
+li:nth-child(5){
+    border-right: none;
+}
+/* section2 top botom */
+section{
+    width: 1000px;
+    height: 900px;
+    /* border: 1px green solid; */
+}
+.top{
+    width: 100%;
+    height: 321px;
+    /* border: 1px red solid; */
+   
+}
+#home .top{
+    background: url(../images/3.jpg) fixed center center;
+    background-size: 80% auto;
+}
+.over{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    color: white;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 10px white solid;
+    padding: 5px;
+}
+.bottom{
+    width: 100%;
+    /* height: 610px; */
+    /* border: 1px black solid; */
+}
+#About .top{
+    background: url(../images/1.jpg) no-repeat top center fixed;
+    background-size: 75% auto;
+
+}
+p{
+    padding: 30px 15px 30px 15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 35px;
+}
+.pic{
+    width: 223px;
+    height: 50px;
+    /* border: 1px red solid; */
+    margin: auto;
+}
+.back{
+    width: 100px;
+    height: 40px;
+    /* border: 1px red solid; */
+    margin:auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+/* section4 */
+#Services .top{
+    background: url(../images/2.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+/* section5 */
+#Training .top{
+    background: url(../images/banner-7.jpg) no-repeat top center fixed;
+    background-size: cover;
+
+}
+/* section6 */
+#Contact .top{
+    background: url(../images/4.jpg) no-repeat top center fixed;
+    background-size: cover;
+}
+.last{
+    width: 100%;
+    height: 70px;
+    /* padding: 5px; */
+    /* border: 1px red solid; */
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 5px;
+    margin-top: 30px;
+
+    
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #182D55;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.india{
+    width: 460px;
+    /* border: 1px red solid; */
+    margin: 20px auto;
+    color: #182D55;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    
+
+}
